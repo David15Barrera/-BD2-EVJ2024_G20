@@ -1,2 +1,3 @@
-# -BD2-EVJ2024_-20
-Primera practica del curso de base de datos 2 - Backups
+# Sistemas de Base de Datos 2
+# Grupo 20
+201901055 - Angel Geovany Aragón Pérez
