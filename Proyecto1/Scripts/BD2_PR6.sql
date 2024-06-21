@@ -22,7 +22,7 @@ BEGIN
     -- Validacion de Curso
     ELSE IF @EntityName = 'Course'
     BEGIN
-        IF ISNULL(@Name, '') NOT LIKE '%[^a-zA-Z ]%' AND ISNUMERIC(@CreditsRequired) = 1
+        IF ISNULL(@Name, '') NOT LIKE '%[^[a-zA-Z]+( \d+)? ]%' AND ISNUMERIC(@CreditsRequired) = 1
             SET @IsValid = 1;
         ELSE
             SET @IsValid = 0;
